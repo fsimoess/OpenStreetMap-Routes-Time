@@ -1,0 +1,3 @@
+geopy
+openrouteservice
+python-telegram-bot
