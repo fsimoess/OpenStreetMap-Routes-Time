@@ -59,7 +59,7 @@ def help(bot, update):
 	bot.send_message(chat_id=update.message.chat_id,
     	text="Para descobrir uma rota, use o formato: \\route Local - Destino\n\nIMPORTANTE: Colocar a cidade primeiro em ambos os campos\n\nEXEMPLO: /route Rio de Janeiro, Copacabana - Rio de Janeiro, Maracana")
 
-updater = Updater('504985028:AAGmW8Jx9BxI3aRJZP7C1iguwnaF_hvCszo')
+updater = Updater('YOUR TOKEN HERE')
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
                      level=logging.INFO)
 dp = updater.dispatcher
